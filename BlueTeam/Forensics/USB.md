@@ -73,3 +73,4 @@ In **event viewer**, these logs are located in **Application and Service Logs ->
 
 ![](/images/usb_parition_source.png)
 
+Looking at these logs, we see event ID 1006
