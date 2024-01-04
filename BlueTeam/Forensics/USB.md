@@ -143,3 +143,6 @@ Shellbags also include Zip files if explorer through the Explorer and **not pass
 These files are only stored in shellbags if visited via Explorer, thus giving us evidence of access.
 
 ## Jumplists
+
+Jumplists - added in Windows 7 - provide users with quick access to recently accessed application files and common tasks. In an investigation, they can be used to determine files accessed, the corresponding programs used, and the timestamps of these activities.
+
