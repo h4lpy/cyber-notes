@@ -85,8 +85,11 @@ Firstly, looking at **event ID 400**, this is logged when an external device, su
 
 ![](/images/kernel-pnp_event_400.png)
 
-The GUID can be cross-referenced with to determine which USB was connected, as well as the timestamp information:
+The GUID can be cross-referenced with to determine which USB was connected, as well as the timestamp information, and additional metadata:
 
 ![](/images/kernel-pnp_event_400_guid.png)
 
-![](kernel-pnp_event_400_timestamp.png)
+![](/images/kernel-pnp_event_400_timestamp.png)
+
+### NTFS
+
