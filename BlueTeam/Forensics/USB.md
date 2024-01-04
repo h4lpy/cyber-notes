@@ -83,4 +83,10 @@ Looking at these logs, we see event ID 1006. Within the **details** tab, in addi
 
 Firstly, looking at **event ID 400**, this is logged when an external device, such as a USB is configured/connected to the system. 
 
-![](kernel-pnp_event_400.png)
+![](/images/kernel-pnp_event_400.png)
+
+The GUID can be cross-referenced with to determine which USB was connected, as well as the timestamp information:
+
+![](/images/kernel-pnp_event_400_guid.png)
+
+![](kernel-pnp_event_400_timestamp.png)
