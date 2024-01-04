@@ -43,4 +43,8 @@ Similarly, key `0066` contains the timestamp of when the USB was disconnected fr
 
 ## USB
 
-`HKLM\SYSTEM\CurrentControlSet\Enum\USB`
+The registry key `HKLM\SYSTEM\CurrentControlSet\Enum\USB` contains information regarding all devices connected through USB ports, such as keyboards, adapters, etc. It exhibits a similar hierarchy as `USBSTOR`:
+
+![](usb_hierarchy.png)
+
+![](usb_data.png)
