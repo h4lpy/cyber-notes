@@ -101,3 +101,4 @@ This can be used in conjunction with file paths with this drive letter in furthe
 
 ![](/images/usb_ntfs_event_412.png)
 
+Using the above example, the drive was assigned the `E:` disk letter. Any file paths associated with this disk letter during its connection can be valuable context to a forensic investigation.
