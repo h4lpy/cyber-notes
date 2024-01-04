@@ -144,5 +144,6 @@ These files are only stored in shellbags if visited via Explorer, thus giving us
 
 ## Jumplists
 
-Jumplists - added in Windows 7 - provide users with quick access to recently accessed application files and common tasks. In an investigation, they can be used to determine files accessed, the corresponding programs used, and the timestamps of these activities.
+Jumplists - added in Windows 7 - provide users with quick access to recently accessed application files and common tasks. In an investigation, they can be used to determine files accessed, the corresponding programs used, and the timestamps of these activities. Most importantly, jumplists persist 
 
+Jumplists can provide evidence of historical activity on the system (file creation, access, and modification), but also enables investigators to construct a timeline of user activities.
