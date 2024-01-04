@@ -31,4 +31,9 @@ Expanding further and drilling down on the `Properties` key and expanding `{83da
 
 ![](usbstor_properties.png)
 
-The key `0064` holds the timestamp of when the device was last connected to t
+The key `0064` holds the timestamp of when the device was last connected to the system (in UTC):
+
+![](usbstor_connected_timestamp.png)
+
+![](usbstor_connected_timestamp_data.png)
+
