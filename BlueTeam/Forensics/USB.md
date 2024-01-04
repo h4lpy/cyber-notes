@@ -37,3 +37,10 @@ The key `0064` holds the timestamp of when the device was last connected to the 
 
 ![](usbstor_connected_timestamp_data.png)
 
+Similarly, key `0066` contains the timestamp of when the USB was disconnected from the system:
+
+![](usbstor_disconnected_timestamp.png)
+
+## USB
+
+`HKLM\SYSTEM\CurrentControlSet\Enum\USB`
