@@ -17,3 +17,11 @@ Opening the `SYSTEM` registry hive, we see subkeys under USBSTOR which are gener
 
 ![](/images/usbstor_subkey.png)
 
+This reveals a randomly-generated key when expanded, which corresponds to the device's assigned serial number by the USB:
+
+![](/images/usbstor_serial.png)
+
+Clicking on this reveals a lot of information about the device:
+
+![](/images/usbstor_info.png)
+
