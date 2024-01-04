@@ -25,3 +25,10 @@ Clicking on this reveals a lot of information about the device:
 
 ![](/images/usbstor_info.png)
 
+From the above, we can see the **Friendly Name** of the device which can be useful in establishing the purpose or the drive or its owner. Similarly, the **container ID** can be used in contextual analysis from different data sources.
+
+Expanding further and drilling down on the `Properties` key and expanding `{83da...}`, we see additional subkeys with timestamp information:
+
+![](usbstor_properties.png)
+
+The key `0064` holds the timestamp of when the device was last connected to t
