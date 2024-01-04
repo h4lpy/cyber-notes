@@ -33,28 +33,43 @@ From the above, we can see the **Friendly Name** of the device which can be usef
 
 Expanding further and drilling down on the `Properties` key and expanding `{83da...}`, we see additional subkeys with timestamp information:
 
-![](usbstor_properties.png)
+![](/images/usbstor_properties.png)
 
 The key `0064` holds the timestamp of when the device was last connected to the system (in UTC):
 
-![](usbstor_connected_timestamp.png)
+![](/images/usbstor_connected_timestamp.png)
 
-![](usbstor_connected_timestamp_data.png)
+![](/images/usbstor_connected_timestamp_data.png)
 
 Similarly, key `0066` contains the timestamp of when the USB was disconnected from the system:
 
-![](usbstor_disconnected_timestamp.png)
+![](/images/usbstor_disconnected_timestamp.png)
 
 ## USB
 
 The registry key `HKLM\SYSTEM\CurrentControlSet\Enum\USB` contains information regarding all devices connected through USB ports, such as keyboards, adapters, etc. It exhibits a similar hierarchy as `USBSTOR`:
 
-![](usb_hierarchy.png)
+![](/images/usb_hierarchy.png)
 
-![](usb_data.png)
+![](/images/usb_data.png)
 
 From the above, this is a Bluetooth adapter as confirmed by the `Service`value.
 
 ## Event Logs
 
-Windows logs can also offer substantial value in USB device investigations. 
+Windows logs can also offer substantial value in USB device investigations and provide additional contest into how these devices are utilised on the system in question.
+
+There are multiple data sources where context can be derived, most notably:
+
+1. Partition
+2. Kernel-PnP
+3. NTFS
+
+In **event viewer**, these logs are located in **Application and Service Logs -> Microsoft -> Windows**:
+
+![](/images/usb_event_logs.png)
+
+### Partition
+
+![](/images/usb_parition_source.png)
+
