@@ -134,4 +134,10 @@ From this view, we confirm this is a directory and we are provided with timestam
 
 Shellbags are stored within `NTUSER.dat` which is a user-centric hive, meaning that each user has their own `NTUSER.dat` file. Whichever user's `NTUSER.dat` file we view will correspond to their activity.
 
-Shellbags also include Zip files if explorer through the Explorer and **notp**
+Shellbags also include Zip files if explorer through the Explorer and **not password-protected**. We can expand this and see the contents:
+
+![](/images/usb_shellbags_zip.png)
+
+![](/images/usb_shellbags_zip_expand.png)
+
+These files are only stored in shellbags if visited via Explorer, thus giving us evidence of access.
