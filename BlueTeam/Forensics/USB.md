@@ -141,3 +141,5 @@ Shellbags also include Zip files if explorer through the Explorer and **not pass
 ![](/images/usb_shellbags_zip_expand.png)
 
 These files are only stored in shellbags if visited via Explorer, thus giving us evidence of access.
+
+## Jumplists
