@@ -105,3 +105,14 @@ Using the above example, the drive was assigned the `E:` disk letter. Any file p
 
 ## Shellbags
 
+Shellbags are created when a user interacts with the shell, the UI for accessing the OS, and the filesystem itself. They contain information about the state of a folder, such as its size, position, and items that it contains. This information is then stored in order to display the folder in the same state when it is accessed again - persistent configuration.
+
+Shellbags can be useful in USB investigations, for example, if a user has accessed a folder containing sensitive files in a USB, the shellbag for the folder may contain information about the name and location of those documents. This can allow an investigator to the user if they are attempting to cover their tracks by deleting/moving files, and can sometimes may be the only record of this activity.
+
+Shellbag locations:
+
+- `NTUSER.DAT\Software\Microsoft\Windows\Shell\BagMRU`
+- `NTUSER.DAT\Software\Microsoft\Windows\Shell\Bags`
+- `USRCLASS.DAT\Local Settings\Software\Microsoft\Windows\Shell\Bags`
+- `USRCLASS.DAT\Local Settings\Software\Microsoft\Windows\Shell\BagMRU`
+
