@@ -144,6 +144,14 @@ These files are only stored in shellbags if visited via Explorer, thus giving us
 
 ## Jumplists
 
-Jumplists - added in Windows 7 - provide users with quick access to recently accessed application files and common tasks. In an investigation, they can be used to determine files accessed, the corresponding programs used, and the timestamps of these activities. Most importantly, jumplists persist 
+Jumplists - added in Windows 7 - provide users with quick access to recently accessed application files and common tasks. In an investigation, they can be used to determine files accessed, the corresponding programs used, and the timestamps of these activities. 
+
+Most importantly, jumplists persist even after the source file or application are deleted. This means even if the USB device was connected long ago, jumplists may contain the information on the host about this device.
 
 Jumplists can provide evidence of historical activity on the system (file creation, access, and modification), but also enables investigators to construct a timeline of user activities.
+
+Two types of jumplists:
+
+- Automatic destinations
+- Custom destinations
+
