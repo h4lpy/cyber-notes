@@ -116,3 +116,22 @@ Shellbag locations:
 - `USRCLASS.DAT\Local Settings\Software\Microsoft\Windows\Shell\Bags`
 - `USRCLASS.DAT\Local Settings\Software\Microsoft\Windows\Shell\BagMRU`
 
+To explore shellbags, we can use [ShellbagExplorer](=https://ericzimmerman.github.io/#!index.md) by Eric Zimmerman.
+
+![](/images/usb_shellbags_eztools.png)
+
+![](/images/usb_shellbags_active.png)
+
+Opening ShellbagExplorer **as admin** and selecting either `NTUSER.dat` or `USRCLASS.dat` gives the above view.
+
+Using our previous example, we are interested in `E:`. Expanding this find a directory called `Secret_Project_LD`:
+
+![](/images/usb_shellbags_e_Drive.png)
+
+![](/images/usb_shellbags_secret_project.png)
+
+From this view, we confirm this is a directory and we are provided with timestamps when it was first accessed, last accessed, etc.
+
+Shellbags are stored within `NTUSER.dat` which is a user-centric hive, meaning that each user has their own `NTUSER.dat` file. Whichever user's `NTUSER.dat` file we view will correspond to their activity.
+
+Shellbags also include Zip files if explorer through the Explorer and **notp**
