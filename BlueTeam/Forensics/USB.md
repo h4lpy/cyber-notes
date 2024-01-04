@@ -155,3 +155,4 @@ Two types of jumplists:
 - Automatic destinations
 - Custom destinations
 
+Each file comprises a **16-digit hex number** which denotes the **AppID (Application Identifier)** which precede a `automaticDestination-ms` or `customDestination-ms` extension. Note that these are **hidden files** and cannot be revealed via the Windows Explorer
