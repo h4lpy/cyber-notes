@@ -48,3 +48,5 @@ The registry key `HKLM\SYSTEM\CurrentControlSet\Enum\USB` contains information r
 ![](usb_hierarchy.png)
 
 ![](usb_data.png)
+
+From the above, this is a Bluetooth adapter as confirmed by the `Service`value.
