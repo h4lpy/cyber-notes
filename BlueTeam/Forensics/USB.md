@@ -54,3 +54,7 @@ The registry key `HKLM\SYSTEM\CurrentControlSet\Enum\USB` contains information r
 ![](usb_data.png)
 
 From the above, this is a Bluetooth adapter as confirmed by the `Service`value.
+
+## Event Logs
+
+Windows logs can also offer substantial value in USB device investigations. 
