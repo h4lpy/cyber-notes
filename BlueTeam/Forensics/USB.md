@@ -93,3 +93,8 @@ The GUID can be cross-referenced with to determine which USB was connected, as w
 
 ### NTFS
 
+![](/images/usb_ntfs_logs.png)
+
+In NTFS operational logs, event ID 142 can be used around the connected timestamp to identify the **disk drive letter** that was given to the USB. 
+
+This can be used in conjunction with file paths with this drive letter in further investigations to understand the files that were transfere
