@@ -73,4 +73,14 @@ In **event viewer**, these logs are located in **Application and Service Logs ->
 
 ![](/images/usb_parition_source.png)
 
-Looking at these logs, we see event ID 1006
+Looking at these logs, we see event ID 1006. Within the **details** tab, in addition to manufacturer, model, capacity, and serial number, we also see the corresponding timestamp identified in `HKLM\SYSTEM\CurrentControlSet\Enum\USBSTOR` which denotes the time of the USB connection. 
+
+![](/images/usb_parition_diagnostic.png)
+
+### Kernel-PnP
+
+![](/images/kernel-pnp_source.png)
+
+Firstly, looking at **event ID 400**, this is logged when an external device, such as a USB is configured/connected to the system. 
+
+![](kernel-pnp_event_400.png)
